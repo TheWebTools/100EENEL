@@ -1,0 +1,6 @@
+@LogSentinel.Agent_HostAddress = http://localhost:5082
+
+GET {{LogSentinel.Agent_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
