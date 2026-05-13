@@ -72,20 +72,6 @@ You can test log queries, alert rule management, and system endpoints directly f
 
 ---
 
-## 🧱 Architecture Overview
-
-100EENEL.Agent
-├── Controllers
-├── Services
-│    ├── Alerts
-│    ├── LogCollectorService
-│    └── LogQueryService
-├── Parsers
-├── Database (SQLite)
-└── Program.cs (API host)
-
----
-
 ## 🧭 Roadmap
 
 See **ROADMAP.md** for the full development plan.
@@ -120,18 +106,6 @@ dotnet run --project 100EENEL.Agent
 ## 📝 License
 
 MIT License — see **LICENSE** for details.
-
----
-
-## 🛡️ ASCII Banner
-
-   ██╗       ██████╗   ██████╗  ███████╗███████╗███╗   ██╗███████╗██╗
-  ███║      ██╔═══██╗ ██╔═══██╗ ██╔════╝██╔════╝████╗  ██║██╔════╝██║
-  ╚██║      ██║   ██║ ██║   ██║ █████╗  █████╗  ██╔██╗ ██║█████╗  ██║
-   ██║      ██║   ██║ ██║   ██║ ██╔══╝  ██╔══╝  ██║╚██╗██║██╔══╝  ██║
-   ██║      ╚██████╔╝ ╚██████╔╝ ███████╗███████╗██║ ╚████║███████╗███████╗
-   ╚═╝       ╚═════╝   ╚═════╝  ╚══════╝╚══════╝╚═╝  ╚═══╝╚══════╝╚══════╝
-                               LOGSENTINEL
 
 ---
 
